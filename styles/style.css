@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.first-part{
+    background-color: purple;
+}
+button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    color: snow;
+    display: flex  ;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+/* Top Navigation */
+
+.nav-option{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 156px;
+    padding-right: 120px;
+    padding-top: 42px;
+}
+.nav-option a{
+    text-decoration: none;
+    padding-right: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: snow;
+}
+
+
+/* First section: HOME */
+.home{
+    display: flex;
+    justify-content: space-between;
+    /* height: 1143.01px;
+    width: 456px; */
+    padding-left: 156px;
+    padding-top: 50px;
+    padding-right: 120px;
+    padding-bottom: 86px;
+
+    
+}
+.home-image{
+    width: 556.01px;
+    height: 438px;
+  
+}
+
+.home-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: seashell;
+    padding-top: 72px;
+    margin-top: 0%;
+    margin-bottom: 27px;
+
+    width: 485px;
+    height: 230px;  
+}
+
+
+
+/* <!-- Second section: Player list --> */
+.second-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.player{
+    padding: 15px;
+    width: 300px;
+    height: 415px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image{
+    width: 300px;
+    height: 256px;
+}
+/* .player-name{
+    padding-top: 16px;
+    padding-bottom: 10px; 
+} */
+
+.player h3{
+    margin-top: 16px;
+    margin-bottom: 10px; 
+}
+.player-info{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6C6C6C;
+margin-top: 10px;
+margin-bottom: 18px; 
+}
