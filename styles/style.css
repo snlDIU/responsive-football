@@ -47,6 +47,7 @@ button{
 .home{
     display: flex;
     justify-content: space-between;
+    
     padding-left: 156px;
     padding-top: 50px;
     padding-right: 120px;
@@ -194,6 +195,7 @@ footer img{
 }
 
 /* Bonus experiments */
+/* Animation and Transition */
 .home-image:hover{
     animation: pop 0.3s;
 }
@@ -205,13 +207,26 @@ footer img{
     transform: scale(1.2);;
 
 }
+/* Highlight extra */
+.highlight-extra{
+    background-color: #E02C6D;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+
+}
+.highlight-extra iframe:hover{
+    animation: pop 0.5s linear;
+
+}
 
 
 /* Media query */
    /* mobile device */
    @media only screen and (max-width: 688px) {
     /* /For Home/ */
-
     
    .home, .container{
         width: 100%;
@@ -240,7 +255,7 @@ footer img{
     .nav-option{
         padding-top: 30px;
         padding-left: 13px;
-        padding-right: 21px;
+        justify-content: space-between;
     }
     .nav-option button{
         width: 89.98px;
@@ -251,7 +266,7 @@ footer img{
         line-height: 18px;
     }
 
-    .nav-optn{
+    .nav-optn, .highlight-extra{
         display: none;
     }
     #burger-btn{
@@ -262,8 +277,8 @@ footer img{
     .highlight{
         width: 100%;
         margin: 0%;
-        padding-top: 60px;
-        padding-left: 30px;
+        padding-top: 50px;
+        padding-left: 10px;
         padding-right: 0px;
     }
     
@@ -283,12 +298,13 @@ footer img{
         padding-top: 50px;
         width: 85%;
         height: 85%;
+        padding-left: 0;
     }
  /* Footer */
  footer{
     width: 100%;
     margin: 0%;
-    padding-left: 13px;
+   
 
  }
  footer img{
@@ -350,7 +366,7 @@ align-items: center;
         line-height: 18px;
     }
 
-    .nav-optn{
+    .nav-optn, .highlight-extra{
         display: none;
     }
     #burger-btn{
