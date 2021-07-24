@@ -1,3 +1,4 @@
+/* General CSS */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -22,8 +23,11 @@ button{
     display: none;
     color: white;
 }
-/* Top Navigation */
 
+
+
+
+/* Top Navigation */
 .nav-option{
     display: flex;
     justify-content: space-between;
@@ -43,6 +47,8 @@ button{
 }
 
 
+
+
 /* First section: HOME */
 .home{
     display: flex;
@@ -52,15 +58,11 @@ button{
     padding-top: 50px;
     padding-right: 120px;
     padding-bottom: 86px;
-    
 }
 .home-image{
     width: 556.01px;
-    height: 438px;
-  
+    height: 438px; 
 }
-
-
 .home-title{
     font-style: normal;
     font-weight: bold;
@@ -70,10 +72,11 @@ button{
     padding-top: 72px;
     margin-top: 0%;
     margin-bottom: 27px;
-
     width: 485px;
     height: 230px;  
 }
+
+
 
 
 
@@ -94,7 +97,6 @@ button{
     padding: 15px;
     width: 300px;
     height: 415px;
-    
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
@@ -117,6 +119,10 @@ button{
     margin-top: 10px;
     margin-bottom: 18px; 
 }
+
+
+
+
 
 /* Third Section: Highlight */
 .highlight{
@@ -160,8 +166,10 @@ button{
     height: 427px;
 }
 
-/* Footer */
 
+
+
+/* Footer */
 footer{
     display: flex;
     flex-direction: column;
@@ -179,10 +187,13 @@ footer img{
     width: 483.87px;
     height: 110px;
 }
+
+
+
+
 /* for Social Media Icons */
 .footer-SM{
     background: rgba(11, 13, 23, 0.123);
-    
     margin-right: 14px;
     padding: 8px;
     border-radius: 18px;
@@ -194,6 +205,9 @@ footer img{
 
 }
 
+
+
+
 /* Bonus experiments */
 /* Animation and Transition */
 .home-image:hover{
@@ -202,11 +216,11 @@ footer img{
 @keyframes pop{
     50%  {transform: scale(1.2);}
   }
-
 .button:hover{
     transform: scale(1.2);;
 
 }
+
 /* Highlight extra */
 .highlight-extra{
     background-color: #E02C6D;
@@ -219,15 +233,14 @@ footer img{
 }
 .highlight-extra iframe:hover{
     animation: pop 0.5s linear;
-
 }
+
+
 
 
 /* Media query */
    /* mobile device */
-   @media only screen and (max-width: 688px) {
-    /* /For Home/ */
-    
+   @media only screen and (max-width: 688px) {    
    .home, .container{
         width: 100%;
         margin: 0%;
@@ -265,13 +278,13 @@ footer img{
         font-size: 12px;
         line-height: 18px;
     }
-
     .nav-optn, .highlight-extra{
         display: none;
     }
     #burger-btn{
         display: inline;
     }
+
 
     /* highlight */
     .highlight{
@@ -300,18 +313,19 @@ footer img{
         height: 85%;
         padding-left: 0;
     }
- /* Footer */
- footer{
-    width: 100%;
-    margin: 0%;
+
+    /* Footer */
+    footer{
+        width: 100%;
+        margin: 0%;
    
 
- }
- footer img{
-    padding-top: 43px;
-    width: 271px;
-    height: 63px;
- }
+    }
+    footer img{
+        padding-top: 43px;
+        width: 271px;
+        height: 63px;
+    }
 
      .players{
          grid-template-columns: repeat(1, 1fr);
@@ -400,18 +414,18 @@ align-items: center;
         width: 50%;
         height: 50%;
     }
- /* Footer */
- footer{
-    width: 100%;
-    margin: 0%;
-    padding-left: 13px;
+    /* Footer */
+    footer{
+        width: 100%;
+        margin: 0%;
+        padding-left: 13px;
 
- }
- footer img{
-    padding-top: 43px;
-    width: 271px;
-    height: 63px;
- }
+    }
+    footer img{
+        padding-top: 43px;
+        width: 271px;
+        height: 63px;
+    }
 
      .players{
          grid-template-columns: repeat(2, 1fr);
